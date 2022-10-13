@@ -1,0 +1,11 @@
+package-as: Masque_Muq
+
+required-dependencies:
+  - masque
+
+ignore:
+  - .pkgmeta
+  - LICENSE.txt
+  - README.md
+
+wowi-archive-previous: no
