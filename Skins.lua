@@ -1,20 +1,23 @@
-local MSQ = LibStub and LibStub("Masque", true)
-if not MSQ then return end
+local Masque = LibStub and LibStub("Masque", true)
+if not Masque then return end
 
-local AddOn, Core = ...
+local _, Core = ...
 
-local Version = GetAddOnMetadata(AddOn, "Version")
+local L = Core.Locale
+
+local Version = "@project-version@"
 local Websites = {
 	"https://github.com/christian-callau/masque-muq",
 	"https://www.curseforge.com/wow/addons/masque-muq",
 }
 
-MSQ:AddSkin("Muq", {
-	API_VERSION = 90002,
+Masque:AddSkin("Muq", {
+	API_VERSION = 110210,
 	Shape = "Square",
 
 	Version = Version,
 	Author = "Constantine32",
+	Description = L["Muq skin for Masque."],
 	Websites = Websites,
 
 	Backdrop = {
@@ -37,6 +40,8 @@ MSQ:AddSkin("Muq", {
 		Width = 36,
 		Height = 36,
 	},
+	CooldownLoC = "Cooldown",
+	ChargeCooldown = "Cooldown",
 	AutoCast = {
 		Width = 32,
 		Height = 32,
@@ -73,6 +78,7 @@ MSQ:AddSkin("Muq", {
 		Color = {0, 0.75, 1, 0.5},
 		Texture = [[Interface\AddOns\Masque_Muq\Textures\Border]],
 	},
+	SlotHighlight = "Checked",
 	AutoCastable = {
 		Width = 64,
 		Height = 64,
@@ -109,4 +115,4 @@ MSQ:AddSkin("Muq", {
 		Height = 9,
 		OffsetY = 4,
 	},
-}, true)
+})

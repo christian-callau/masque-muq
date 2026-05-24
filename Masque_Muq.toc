@@ -1,6 +1,13 @@
-## Interface: 90207
+## Interface: 11508, 20505, 30405, 38001, 40402, 50503, 120005
 
+## Author: Constantine32
 ## Title: Masque: Muq
+## Version: @project-version@
+
+## Category: Masque
+## Dependencies: Masque
+## IconTexture: Interface\AddOns\Masque_Muq\Textures\Icon
+
 ## Notes: Muq skin for Masque.
 ## Notes-deDE: Muq-Skin für Masque.
 ## Notes-esMX: Skin Muq para Masque.
@@ -10,14 +17,14 @@
 ## Notes-ruRU: Скин Muq для Masque.
 ## Notes-zhTW: Masque的Muq皮膚。
 
-## Version: @project-version@
-## Author: Constantine32
-## Dependencies: Masque
-
-## X-Website: https://github.com/christian-callau/masque-muq
 ## X-Category: Interface Enhancements
 ## X-Credits: Muq
+## X-Website: https://github.com/christian-callau/masque-muq
+
 ## X-Curse-Project-ID: 86874
+
+# Locales
+Locales.lua
 
 # Skins
 Skins.lua

@@ -38,7 +38,7 @@ For bug reports and suggestions, use the [issue tracker].
 [sponsor]: https://github.com/sponsors/christian-callau "Sponsor on GitHub"
 [world of warcraft]: https://worldofwarcraft.com "World of Warcraft"
 [issue tracker]: https://github.com/christian-callau/masque-muq/issues "Report an Issue"
-[curseforge]: https://www.curseforge.com/wow/addons/masque-caith "View on CurseForge"
+[curseforge]: https://www.curseforge.com/wow/addons/masque-muq "View on CurseForge"
 [github]: https://github.com/christian-callau/masque-muq "View on GitHub"
 [//]: # "Images"
 [svg-masque]: https://img.shields.io/endpoint?url=https://wow.stormfx.com/img/svg/masque-skin.json

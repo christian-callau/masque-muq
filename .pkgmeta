@@ -1,11 +1,14 @@
 package-as: Masque_Muq
 
-required-dependencies:
-  - masque
-
 ignore:
+  - .github
+  - .gitattributes
+  - .gitignore
   - .pkgmeta
   - LICENSE.txt
   - README.md
+
+required-dependencies:
+  - masque
 
 wowi-archive-previous: no
