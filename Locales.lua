@@ -21,8 +21,14 @@ elseif Locale == "frFR" then
 	L["Muq skin for Masque."] = "Skin de Muq pour Masque."
 elseif Locale == "itIT" then
 	L["Muq skin for Masque."] = "Skin Muq per Masque."
+elseif Locale == "koKR" then
+	L["Muq skin for Masque."] = "Masque용 Muq 스킨."
+elseif Locale == "ptBR" then
+	L["Muq skin for Masque."] = "Skin Muq para o Masque."
 elseif Locale == "ruRU" then
 	L["Muq skin for Masque."] = "Скин Muq для Masque."
+elseif Locale == "zhCN" then
+	L["Muq skin for Masque."] = "Masque的Muq皮肤。"
 elseif Locale == "zhTW" then
 	L["Muq skin for Masque."] = "Masque的Muq皮膚。"
 end

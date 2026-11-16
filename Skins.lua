@@ -12,7 +12,7 @@ local Websites = {
 }
 
 Masque:AddSkin("Muq", {
-	API_VERSION = 110210,
+	API_VERSION = 120001,
 	Shape = "Square",
 
 	Version = Version,
@@ -42,13 +42,6 @@ Masque:AddSkin("Muq", {
 	},
 	CooldownLoC = "Cooldown",
 	ChargeCooldown = "Cooldown",
-	AutoCast = {
-		Width = 32,
-		Height = 32,
-		OffsetX = 1,
-		OffsetY = -1,
-		AboveNormal = true,
-	},
 	Normal = {
 		Width = 42,
 		Height = 42,
@@ -68,9 +61,6 @@ Masque:AddSkin("Muq", {
 		BlendMode = "ADD",
 		Texture = [[Interface\AddOns\Masque_Muq\Textures\Border]],
 	},
-	Disabled = {
-		Hide = true,
-	},
 	Checked = {
 		Width = 42,
 		Height = 42,
@@ -79,13 +69,6 @@ Masque:AddSkin("Muq", {
 		Texture = [[Interface\AddOns\Masque_Muq\Textures\Border]],
 	},
 	SlotHighlight = "Checked",
-	AutoCastable = {
-		Width = 64,
-		Height = 64,
-		OffsetX = 0.5,
-		OffsetY = -0.5,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
-	},
 	Highlight = {
 		Width = 42,
 		Height = 42,
